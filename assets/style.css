@@ -1,0 +1,100 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    color: var(--marrom1);
+}
+
+:root {
+    --rosa1: #FFF3EE;
+    --rosa2: #FACDBC;
+    --rosa3: #F8B49B;
+    --laranja1: #D96216;
+    --marrom1: #633117;
+    }
+
+body {
+        background-color: var(--rosa1);
+    }
+    
+nav{
+    background-color: var(--rosa2);
+    text-align: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+  }
+nav img {
+    width: 100px;
+    text-align: left;
+  }
+
+nav a {
+    display: inline-block;
+    color: var(--laranja1);
+    text-decoration:none;
+    font-size: 26px;
+    padding: 10px;
+
+  }
+nav a:hover{
+    background-color: var(--laranja1);
+    color: var(--rosa1);
+  }
+
+h1 {
+    color: var(--marrom1);
+    
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    }
+label[for="kurs1"],label[for="kurs2"],label[for="kurs3"],label[for="news"] {
+    width: auto;
+  }
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid var(--rosa2);
+    background-color: var(--rosa2);
+}
+input[type="text"]:focus {
+   background-color: var(--rosa1);
+}
+input[type="submit"] {
+    margin: 5px;
+    cursor: pointer;
+    border: 2px dashed var(--rosa3);
+    background-color: var(--laranja1);
+    color:  var(--rosa1);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5%;
+}
+input[type="submit"]:hover {
+    border: 2px solid var(--laranja1);
+    background-color: var(--rosa3);
+    color: var(--rosa1);
+}
+textarea {
+    background-color: var(--rosa2);
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+    vertical-align: top;
+}
+input[type="radio"] {
+    margin: 5px 10px 5px 0;
+}
+
+
+footer {
+    margin: 25px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
