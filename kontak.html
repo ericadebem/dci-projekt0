@@ -1,92 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LIEFERFRESH | DCI</title>
-    <link rel="shortcut icon" href="./assets/img/icon3.png" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/icon3.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <img src="./assets/img/logoT.png" alt="logotransp" class="logo-header">
-        <nav>           
-            <a href="index.html"> Über uns</a>
-            <a href="funk.html">So Funktioniert's</a>
-            <a href="kontak.html">Kontakt</a>
-        </nav>
+      <img src="./assets/img/logoT.png" alt="logotransp" class="logo-header" />
+      <nav>
+        <a href="index.html"> Über uns</a>
+        <a href="funk.html">So Funktioniert's</a>
+        <a href="kontak.html">Kontakt</a>
+      </nav>
     </header>
     <section>
-        <h3><Wir class="h2-extra">Um Ihre erste Bestellung aufzugeben, füllen Sie dieses Formular aus und wir werden uns mit Ihnen in Verbindung setzen. <br>Wir haben eine Überraschung für Sie!</h3><br>
-        <img src="./assets/img/foto8.jpg" alt="avocado" id="avocado">
-        <form>
-            <label>Name:</label>
-            <input type="text" name="nachname" required><br><br>
+      <h2 class="kontakt-title">
+        Um Ihre erste Bestellung aufzugeben, füllen Sie dieses Formular aus und
+        wir werden uns mit Ihnen in Verbindung setzen. <br /> Wir haben eine
+        Überraschung für Sie!
+      </h2>
+      <br />
+      <img src="./assets/img/foto8.jpg" alt="avocado" id="avocado" />
+      <form>
+        <label>Name:</label>
+        <input type="text" name="nachname" required /><br /><br />
 
-            <label>Email:</label>
-            <input type="email" name="email" required><br><br>
+        <label>Email:</label>
+        <input type="email" name="email" required /><br /><br />
 
-            <label>Anzahl der Personen:</label><br>
-            <input type="radio" name="personen" value="per1" id="p1">
-            <label for="p1">1</label><br>
-            <input type="radio" name="personen" value="per4" id="p2"checked>
-            <label for="p2">2</label><br>
-            <input type="radio" name="personen" value="per4" id="p3">
-            <label for="p3">3</label><br>
-            <input type="radio" name="personen" value="per4" id="p4">
-            <label for="p4">4+</label><br><br>
+        <label>Anzahl der Personen:</label><br />
+        <input type="radio" name="personen" value="per1" id="p1" />
+        <label for="p1">1</label><br />
+        <input type="radio" name="personen" value="per4" id="p2" checked />
+        <label for="p2">2</label><br />
+        <input type="radio" name="personen" value="per4" id="p3" />
+        <label for="p3">3</label><br />
+        <input type="radio" name="personen" value="per4" id="p4" />
+        <label for="p4">4+</label><br /><br />
 
-            <label>Gerichte pro Woche:</label><br>
-            <input type="radio" name="gerichte" value="ger1" id="g1">
-            <label for="g1">1</label><br>
-            <input type="radio" name="gerichte" value="ger2" id="g2">
-            <label for="g2">2</label><br>
-            <input type="radio" name="gerichte" value="ger3" id="g3">
-            <label for="g3">3</label><br>
-            <input type="radio" name="gerichte" value="ger4" id="g4">
-            <label for="g4">4</label><br>
-            <input type="radio" name="gerichte" value="ger5" id="g5" checked>
-            <label for="g5">5</label><br><br>
+        <label>Gerichte pro Woche:</label><br />
+        <input type="radio" name="gerichte" value="ger1" id="g1" />
+        <label for="g1">1</label><br />
+        <input type="radio" name="gerichte" value="ger2" id="g2" />
+        <label for="g2">2</label><br />
+        <input type="radio" name="gerichte" value="ger3" id="g3" />
+        <label for="g3">3</label><br />
+        <input type="radio" name="gerichte" value="ger4" id="g4" />
+        <label for="g4">4</label><br />
+        <input type="radio" name="gerichte" value="ger5" id="g5" checked />
+        <label for="g5">5</label><br /><br />
 
-            <input type="checkbox" name="newsletter" checked> 
-            <label for="news">Newsletter-Anmeldung</label><br><br>
-                
-            <label for="bland">Wähle dein Bundesland:</label>
-            <select name="bland" id="bland"> 
-            <option value="baw">Baden-Württemberg</option>
-            <option value="bay">Bayern</option>
-            <option value="ber">Berlin</option>
-            <option value="bra">Brandenburg</option>
-            <option value="bre">Bremen</option>
-            <option value="ham">Hamburg</option>
-            <option value="hes">Hessen</option>
-            <option value="mev">Mecklenburg-Vorpommern</option>
-            <option value="nie">Niedersachsen</option>
-            <option value="now">Nordrhein-Westfalen</option>
-            <option value="rhp">Rheinland-Pfalz</option>
-            <option value="das">das Saarland</option>
-            <option value="sac">Sachsen</option>
-            <option value="saa">Sachsen-Anhalt</option>
-            <option value="sch">Schleswig-Holstein</option>
-            <option value="thu">Thüringen</option><br><br>
-            </select>
-         
-            <label>Nachricht:</label>
-            <textarea name="nachricht" placeholder="Schreiben Sie hier Ihre Nachricht oder Zweifel!">
-            </textarea><br><br>
+        <input type="checkbox" name="newsletter" checked />
+        <label for="news">Newsletter-Anmeldung</label><br /><br />
 
-            <input type="submit" value="Absenden"> 
-    
-        </form>
+        <label for="bland">Wähle dein Bundesland:</label>
+        <select name="bland" id="bland">
+          <option value="baw">Baden-Württemberg</option>
+          <option value="bay">Bayern</option>
+          <option value="ber">Berlin</option>
+          <option value="bra">Brandenburg</option>
+          <option value="bre">Bremen</option>
+          <option value="ham">Hamburg</option>
+          <option value="hes">Hessen</option>
+          <option value="mev">Mecklenburg-Vorpommern</option>
+          <option value="nie">Niedersachsen</option>
+          <option value="now">Nordrhein-Westfalen</option>
+          <option value="rhp">Rheinland-Pfalz</option>
+          <option value="das">das Saarland</option>
+          <option value="sac">Sachsen</option>
+          <option value="saa">Sachsen-Anhalt</option>
+          <option value="sch">Schleswig-Holstein</option>
+          <option value="thu">Thüringen</option>
+        </select><br /><br />
+
+        <label>Nachricht:</label>
+        <textarea
+          name="nachricht"
+          placeholder="Schreiben Sie hier Ihre Nachricht oder Zweifel!"
+        >
+        </textarea
+        ><br /><br />
+
+        <input type="submit" value="Absenden" />
+      </form>
     </section>
-    <div class="social-media">
-        <button><a href="https://github.com/ericadebem" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></button>
-        <button><a href="https://www.linkedin.com/in/ericadebem/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></button>
-      </div>
-    <footer class="copyright">Copyright 2023 Erica de Bem - DCI | Lehrer Jörg Pietschmann </footer>
-</body>
+    <footer class="copyright">
+      Copyright 2023 Erica de Bem | DCI | Lehrer Jörg Pietschmann
+    </footer>
+  </body>
 </html>
