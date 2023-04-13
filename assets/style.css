@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   color: var(--braun);
 }
@@ -44,6 +44,7 @@ nav {
 nav a {
   padding: 10px;
   color: var(--orange);
+  cursor: pointer;
 }
 
 nav a:hover {
@@ -219,6 +220,10 @@ input[type="submit"]:hover {
 #avocado {
   float: right;
   width: 500px;
+}
+
+.social-media {
+
 }
 
 footer {
